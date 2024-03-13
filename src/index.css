@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color-scheme: light ;
+  overflow-x: hidden;
+}
+.menuOpenHamburger{
+  box-shadow: 30px 0px 46px 3px rgba(130,122,122,0.73);
+-webkit-box-shadow: 30px 0px 46px 3px rgba(130,122,122,0.73);
+-moz-box-shadow: 30px 0px 46px 3px rgba(130,122,122,0.73);
+}
+.bakcgroud-image-login{
+  background-image: url("./assets/login.png");
+  background-repeat: no-repeat;
+  background-position: center center;;
+}
+
+
+
+table{
+  
+}
+
+thead, tbody {
+  display: block;
+}
+
+.header-table {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody {
+  max-height: 240px;
+  min-width: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.footer-table {
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
+  padding: 8px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+
+@media (max-width: 1040px) {
+  .section-nav-responsive {
+    background-color: red;
+    display: none;
+  }
+}
